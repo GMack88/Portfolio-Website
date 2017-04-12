@@ -1,0 +1,32 @@
+/*
+Theme Name: Twenty Fifteen Child
+Theme URI: http://example.com/twenty-fifteen-child/
+Description: Twenty Fifteen Child Theme
+Author: Gerrit
+Author URI: http://codemack.us
+Template: twentyfifteen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-fifteen-child
+*/
+@import url("../twentyfifteen/style.css");
+.entry-header { 
+			padding: 0 10%; }
+.entry-title, .widecolumn h2 {
+	font-size: 3.9rem;
+	line-height: 1.2308;
+	margin-bottom: 1.2308em;
+}			
+.entry-content, .entry-summary {padding: 0 10% 10%;}
+
+.entry-header {
+   padding: 0 5%;
+}
+.entry-title, .widecolumn h2 {
+   margin-bottom: 0.5em;
+}
+.entry-content, .entry-summary {
+   padding: 0 5% 10%;
+}
